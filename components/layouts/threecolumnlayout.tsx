@@ -18,7 +18,6 @@ export const ThreeColumnLayout: FC<IThreeColumnLayout> = () => {
         <About careerStart={new Date("2012, 07, 18")} />
         <Work />
         <Footer />
-        <TestCall />
       </Box>
       <Box width="25%" bgcolor={"darkblue"}></Box>
     </ResumeContainer>
